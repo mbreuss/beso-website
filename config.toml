@@ -1,0 +1,40 @@
+baseurl = "https://mbreuss.github.io/beso/"
+DefaultContentLanguage = "en"
+title = "Goal Conditioned Imitation Learning using Score-based Diffusion Policies"
+theme = ["beautifulhugo"]
+#pygmentsStyle = "trac"
+pygmentsUseClasses = true
+pygmentsCodeFences = true
+#pygmentsCodefencesGuessSyntax = true
+#pygmentsUseClassic = true
+#pygmentOptions = "linenos=inline"
+#disqusShortname = "XXX"
+#googleAnalytics = "XXX"
+
+[Params]
+  homeTitle = "Goal Conditioned Imitation Learning using Score-based Diffusion Policies" # Set a different text for the header on the home page
+  subtitle = "Moritz Reuss, Maximilian Xiling Li, Xiaogang Jia, Rudolf Lioutikov"
+  #mainSections = ["post","posts"]
+  logo = "images/IRL_Logo_Icon_blue.svg"  # Expecting square dimensions
+  favicon = "images/IRL_Logo_Icon_blue.svg" 
+  dateFormat = "January 2, 2006"
+  commit = false
+  #rss = true
+  comments = false
+  readingTime = false
+  wordCount = false
+  useHLJS = false
+  socialShare = false
+  delayDisqus = false
+  showRelatedPosts = false
+
+
+[Author]
+  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
+  name = "Moritz Reuss"
+  website = "https://mbreuss.github.io/moritzreuss/"
+  email = "moritz.reuss@kit.edu"
+#  facebook = "username"
+#  github = "https://github.com/intuitive-robots/ml-cur"
+#  pdf = "https://arxiv.org/pdf/2304.02532"
+
