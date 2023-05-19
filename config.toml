@@ -28,13 +28,17 @@ pygmentsCodeFences = true
   delayDisqus = false
   showRelatedPosts = false
 
+[Params.authors]
+  "Moritz Reuss" = "https://mbreuss.github.io/moritzreuss/"
+  "Maximilian Xiling Li" = "https://website.com/"
+  "Xiaogang Jia" = "https://website.com/"
+  "Rudolf Lioutikov" = "https://website.com/"
 
 [Author]
-  # Set only your "username" for default hosts and full URLs otherwise (e.g., "https://MyGitLab.org/username")
   name = "Moritz Reuss"
   website = "https://mbreuss.github.io/moritzreuss/"
   email = "moritz.reuss@kit.edu"
 #  facebook = "username"
 #  github = "https://github.com/intuitive-robots/ml-cur"
-#  pdf = "https://arxiv.org/pdf/2304.02532"
+  pdf = "https://arxiv.org/pdf/2304.02532"
 

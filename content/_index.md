@@ -2,12 +2,15 @@
 This is a comment.
 -->
 
+
+Still under construction!
+
 {{< centerLinks "https://arxiv.org/pdf/2304.02532" "your_code_url" "https://roboticsconference.org/" >}}
 
 
-![Overview of the BESO Policy](images/beso_paper_vis.png)
 
-# Abstract
+![Overview of the BESO Policy](images/Beso_Figure_1.png)
+
 
 We propose a new policy representation based on score-based diffusion models (SDMs).
 We apply our new policy representation in the domain of Goal-Conditioned Imitation Learning (GCIL) to learn
@@ -28,25 +31,6 @@ goal-conditioned imitation learning methods on challenging benchmarks.
 We additionally provide extensive ablation studies and experiments to demonstrate the effectiveness of our method for goal-conditioned behavior generation.
 
 
-## Method
-
-Our new policy representation BESO uses a continuous score-based diffusion model to iteratively denoise actions to reach a desired goal state. 
-
-
-![Illustration of CFG-BESO](images/animated_cfg_values.gif)
-
-## Experiments
-
-We evaluate BESO on 3 challenging goal-conditioned simulation benchmarks and show that it outperforms all prior state-of-the-art methods by wide margin. Contrast to other diffusion-based policies we only require 5 denoising steps to achieve these results. See the paper for details about all experiments and performance. 
-
-![Table results 1](images/BESO_Table_Results.png)
-
-### Classifier-Free Guidance Model
-
-By using Classifier-Free Guidance Approach of diffusion models, we are able to train two policies simultaneously: 
-A goal-dependent and a goal-independent policy. During inference we can combine both policies to guide behavior generation towards goals or doing random rollouts with a high reward while completly ignoring all goals. 
-
-![Comparison of CFG-BESO with different lambda values](images/BESO_CFG_plot.png)
 
 ## BibTeX
 
