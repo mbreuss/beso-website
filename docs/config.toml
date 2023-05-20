@@ -1,4 +1,4 @@
-baseurl = "https://mbreuss.github.io/beso/"
+baseurl = "https://intuitive-robots.github.io/beso-website"
 DefaultContentLanguage = "en"
 title = "Goal Conditioned Imitation Learning using Score-based Diffusion Policies"
 theme = ["beautifulhugo"]
@@ -39,6 +39,6 @@ pygmentsCodeFences = true
   website = "https://mbreuss.github.io/moritzreuss/"
   email = "moritz.reuss@kit.edu"
 #  facebook = "username"
-#  github = "https://github.com/intuitive-robots/ml-cur"
+#  github = "https://github.com/intuitive-robots/beso"
   pdf = "https://arxiv.org/pdf/2304.02532"
 
