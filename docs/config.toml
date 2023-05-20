@@ -38,7 +38,6 @@ pygmentsCodeFences = true
   name = "Moritz Reuss"
   website = "https://mbreuss.github.io/moritzreuss/"
   email = "moritz.reuss@kit.edu"
-#  facebook = "username"
-#  github = "https://github.com/intuitive-robots/beso"
+  github = "https://github.com/intuitive-robots/beso"
   pdf = "https://arxiv.org/pdf/2304.02532"
 
