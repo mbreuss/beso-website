@@ -13,12 +13,14 @@
 <div style="display: flex; justify-content: space-between;">
     <div class="video-container" style="flex: 1; padding: 10px;">
         <video controls autoplay muted loop style="width: 100%; height: auto;">
-            <source src="{{ $video_one }}" type="video/webm">
+            <source src="{{ .Get "src1" }}" type="video/webm">
         </video>
+        <div class="video-title text-center">{{ .Get "title1" }}</div>
     </div>
     <div class="video-container" style="flex: 1; padding: 10px;">
         <video controls autoplay muted loop style="width: 100%; height: auto;">
-            <source src="{{ $video_two }}" type="video/webm">
+            <source src="{{ .Get "src2" }}" type="video/webm">
         </video>
+        <div class="video-title text-center">{{ .Get "title2" }}</div>
     </div>
 </div>
