@@ -35,6 +35,7 @@ We additionally provide extensive ablation studies and experiments to demonstrat
 
 {{< doublevideo src1="images/kitchen_rollout.webm" src2="images/block_rollout.webm">}}
 
+We evaluate BESO 
 
 ## BibTeX
 
