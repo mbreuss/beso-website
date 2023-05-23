@@ -31,6 +31,10 @@ goal-conditioned imitation learning methods on challenging benchmarks.
 We additionally provide extensive ablation studies and experiments to demonstrate the effectiveness of our method for goal-conditioned behavior generation.
 
 
+### Experimental Results
+
+{{< doublevideo src1="images/kitchen_rollout.webm" src2="images/block_rollout.webm">}}
+
 
 ## BibTeX
 
