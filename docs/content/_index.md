@@ -44,7 +44,7 @@ Check out our [paper](https://arxiv.org/pdf/2304.02532) for detailed results and
 
 Our experiments showcase the effectiveness Classifier-Free Guidance (CFG) Training of Diffusion Models in simultaneously learning goal-independent and goal-dependent policies. We can compose the gradients at test time to control the amount of goal-guidance we want to apply to the policy. The purpose of this setup is to demonstrate the influence of goal-guidance on the behavior of the policy. By gradually increasing the value of lamda, we can observe how the policy becomes more goal-oriented and achieves a better success rate in accomplishing the desired goals.
 
-Below you can see the performance of CFG-BESO on the kitchen and block push environment. When we set the guidance factor $\lambda=0$, we completely ignore the goal and generate random behavior with a high reward and low result (only gives credit, if a pre-defined goal is solved).
+Below you can see the performance of CFG-BESO on the kitchen and block push environment. When we set the guidance factor lamda=0, we completely ignore the goal and generate random behavior with a high reward and low result (only gives credit, if a pre-defined goal is solved).
 
 ![BESO CFG](images/BESO_CFG_plot.png)
 
