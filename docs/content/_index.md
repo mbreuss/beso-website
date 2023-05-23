@@ -5,8 +5,7 @@ This is a comment.
 {{< centerLinks "https://arxiv.org/pdf/2304.02532" "https://github.com/intuitive-robots/beso" "https://roboticsconference.org/" >}}
 
 
-
-<img src="images/Beso_Figure_1.png" alt="drawing" width="100%">
+![BESO](images/Beso_Figure_1.png)
 
 We propose a new policy representation based on score-based diffusion models (SDMs).
 We apply our new policy representation in the domain of Goal-Conditioned Imitation Learning (GCIL) to learn
@@ -44,7 +43,7 @@ Our experiments showcase the effectiveness Classifier-Free Guidance (CFG) Traini
 
 Below you can see the performance of CFG-BESO on the kitchen and block push environment. When we set the guidance factor $\lambda=0$, we completely ignore the goal and generate random behavior with a high reward and low result (only gives credit, if a pre-defined goal is solved).
 
-<img src="images/BESO_CFG_plot.png" alt="drawing" width="100%">
+![BESO CFG](images/images/BESO_CFG_plot.png)
 
 ### BESO for General Imitation Learning
 
