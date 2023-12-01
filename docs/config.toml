@@ -29,14 +29,14 @@ pygmentsCodeFences = true
   showRelatedPosts = false
 
 [Params.authors]
-  "Moritz Reuss" = "https://mbreuss.github.io/moritzreuss/"
+  "Moritz Reuss" = "https://mbreuss.github.io/"
   "Maximilian Xiling Li" = "https://website.com/"
   "Xiaogang Jia" = "https://website.com/"
   "Rudolf Lioutikov" = "https://website.com/"
 
 [Author]
   name = "Moritz Reuss"
-  website = "https://mbreuss.github.io/moritzreuss/"
+  website = "https://mbreuss.github.io/"
   email = "moritz.reuss@kit.edu"
   github = "https://github.com/intuitive-robots/beso"
   pdf = "https://arxiv.org/pdf/2304.02532"
