@@ -10,7 +10,7 @@ paper: https://arxiv.org/pdf/2304.02532
 # video:
 code: https://github.com/intuitive-robots/beso
 # data:
-full-page-landing-include: fpl-video.html
+title-bg-landing-include: fpl-video.html
 ---
 
 

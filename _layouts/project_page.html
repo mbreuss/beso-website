@@ -48,7 +48,10 @@
 {% endif %}
 
 
-<section class="hero">
+<section class="hero is-relative">
+  {% if page.title-bg-landing-include %}
+  <div class="tbl-header-wrapper">
+  {% endif %}
   <div class="hero-body">
     <div class="container is-max-desktop">
       <div class="columns is-centered">
@@ -135,6 +138,15 @@
       </div>
     </div>
   </div>
+
+  {% if page.title-bg-landing-include %}
+  </div>
+  <div class="tbl-container">
+    {% include {{ page.title-bg-landing-include }} %}
+  </div>
+  {% endif %}
+
+
 </section>
 
 <section class="section">
