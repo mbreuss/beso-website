@@ -67,20 +67,6 @@ We evaluate BESO on several challenging goal-conditioned imitation learning benc
         <div class="column is-full columns is-centered">
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="./static/video/long_horizon_sequence_1.mp4">
-                </video>
-                <p>CALVIN 5 Task Sequences</p>
-            </div>
-            <div class="column is-half">
-                <video width="100%" autoplay muted loop playsinline>
-                    <source src="./static/video/long_horizon_sequence_2.mp4">
-                </video>
-                <p>CALVIN 5 Task Sequences</p>
-            </div>
-        </div>
-        <div class="column is-full columns is-centered">
-            <div class="column is-half">
-                <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/rp_inside.mkv">
                 </video>
                 <p>D3IL Align (inside)</p>
@@ -90,6 +76,20 @@ We evaluate BESO on several challenging goal-conditioned imitation learning benc
                     <source src="./static/video/rp_outside.mkv">
                 </video>
                 <p>D3IL Align (outside)</p>
+            </div>
+        </div>
+        <div class="column is-full columns is-centered">
+            <div class="column is-half">
+                <video width="100%" autoplay muted loop playsinline>
+                    <source src="./static/video/long_horizon_sequence_1_f.mp4">
+                </video>
+                <p>CALVIN 5 Task Sequences</p>
+            </div>
+            <div class="column is-half">
+                <video width="100%" autoplay muted loop playsinline>
+                    <source src="./static/video/long_horizon_sequence_2_f.mp4">
+                </video>
+                <p>CALVIN 5 Task Sequences</p>
             </div>
         </div>
     </div>
