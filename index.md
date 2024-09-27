@@ -67,6 +67,20 @@ We evaluate BESO on several challenging goal-conditioned imitation learning benc
         <div class="column is-full columns is-centered">
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
+                    <source src="./static/video/long_horizon_sequence_1.mp4">
+                </video>
+                <p>CALVIN 5 Task Sequences</p>
+            </div>
+            <div class="column is-half">
+                <video width="100%" autoplay muted loop playsinline>
+                    <source src="./static/video/long_horizon_sequence_2.mp4">
+                </video>
+                <p>CALVIN 5 Task Sequences</p>
+            </div>
+        </div>
+        <div class="column is-full columns is-centered">
+            <div class="column is-half">
+                <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/rp_inside.mkv">
                 </video>
                 <p>D3IL Align (inside)</p>
@@ -82,7 +96,7 @@ We evaluate BESO on several challenging goal-conditioned imitation learning benc
 </div>
 
 ### Real World Experiments
-We evaluate BESO on a challenging real world toy kitchen environment with 10 tasks and compare it to the BC baseline.
+We evaluate BESO on a challenging real world toy kitchen environment with 10 tasks and compare it to the goal conditioned BC baseline.
 <div class="columns is-full is-centered has-text-centered">
     <div class="column is-four-fifths">
         <div class="column is-full columns is-centered">
@@ -90,11 +104,13 @@ We evaluate BESO on a challenging real world toy kitchen environment with 10 tas
                 <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/real_robot_50/banana_from_sink_to_right_stove_7.mp4">
                 </video>
+                <p>Move the banana from sink to right stove (BESO)</p>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/bc_real_robot_50/banana_from_sink_to_right_stove_37.mp4">
                 </video>
+                <p>Move the banana from sink to right stove (GCBC)</p>
             </div>
         </div>
         <div class="column is-full columns is-centered">
@@ -102,11 +118,13 @@ We evaluate BESO on a challenging real world toy kitchen environment with 10 tas
                 <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/real_robot_50/pickup_toast_and_put_to_sink_29.mp4">
                 </video>
+                <p>Pick up toast ande put it into the sink (BESO)</p>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/bc_real_robot_50/pickup_toast_and_put_to_sink_45.mp4">
                 </video>
+                <p>Pick up toast ande put it into the sink (GCBC)</p>
             </div>
         </div>
         <div class="column is-full columns is-centered">
@@ -114,11 +132,13 @@ We evaluate BESO on a challenging real world toy kitchen environment with 10 tas
                 <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/real_robot_50/open_oven_22.mp4">
                 </video>
+                <p>Open oven (BESO)</p>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/bc_real_robot_50/open_oven_11.mp4">
                 </video>
+                <p>Open oven (GCBC)</p>
             </div>
         </div>
         <div class="column is-full columns is-centered">
@@ -126,11 +146,13 @@ We evaluate BESO on a challenging real world toy kitchen environment with 10 tas
                 <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/real_robot_50/pot_from_sink_to_right_stove_31.mp4">
                 </video>
+                <p>Move the pot from sink to the right stove (BESO)</p>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/bc_real_robot_50/pot_from_sink_to_right_stove_7.mp4">
                 </video>
+                <p>Move the pot from sink to the right stove (GCBC)</p>
             </div>
         </div>
         <div class="column is-full columns is-centered">
@@ -138,13 +160,13 @@ We evaluate BESO on a challenging real world toy kitchen environment with 10 tas
                 <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/real_robot_50/pull_oven_tray_13.mp4">
                 </video>
-                <p>BESO</p>
+                <p>Pull oven tray (BESO)</p>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
                     <source src="./static/video/bc_real_robot_50/pull_oven_tray_17.mp4">
                 </video>
-                <p>BC</p>
+                <p>Pull oven tray (GCBC)</p>
             </div>
         </div>
     </div>
