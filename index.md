@@ -26,7 +26,7 @@ We propose a new policy representation based on score-based diffusion models (SD
 </div>
 
 <div class="columns is-centered">
-    <img src="/static/image/Beso_Figure_1.png" alt="BESO" class="column is-four-fifths">
+    <img src="./static/image/Beso_Figure_1.png" alt="BESO" class="column is-four-fifths">
 </div>
 
 ---
@@ -39,13 +39,13 @@ We evaluate BESO on several challenging goal-conditioned imitation learning benc
         <div class="column is-full columns is-centered">
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/kitchen_rollout.webm">
+                    <source src="./static/video/kitchen_rollout.webm">
                 </video>
                 <p>GC-Kitchen</p>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/block_rollout.webm">
+                    <source src="./static/video/block_rollout.webm">
                 </video>
                 <p>GC-Block Push</p>
             </div>
@@ -53,13 +53,13 @@ We evaluate BESO on several challenging goal-conditioned imitation learning benc
         <div class="column is-full columns is-centered">
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/beso_lh_seq.webm">
+                    <source src="./static/video/beso_lh_seq.webm">
                 </video>
                 <p>CALVIN 2 Tasks</p>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/beso_single.webm">
+                    <source src="./static/video/beso_single.webm">
                 </video>
                 <p>CALVIN Hard Tasks</p>
             </div>
@@ -67,13 +67,13 @@ We evaluate BESO on several challenging goal-conditioned imitation learning benc
         <div class="column is-full columns is-centered">
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/rp_inside.mkv">
+                    <source src="./static/video/rp_inside.mkv">
                 </video>
                 <p>D3IL Align (inside)</p>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/rp_outside.mkv">
+                    <source src="./static/video/rp_outside.mkv">
                 </video>
                 <p>D3IL Align (outside)</p>
             </div>
@@ -88,61 +88,61 @@ We evaluate BESO on a challenging real world toy kitchen environment with 10 tas
         <div class="column is-full columns is-centered">
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/real_robot_50/banana_from_sink_to_right_stove_7.mp4">
+                    <source src="./static/video/real_robot_50/banana_from_sink_to_right_stove_7.mp4">
                 </video>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/bc_real_robot_50/banana_from_sink_to_right_stove_37.mp4">
-                </video>
-            </div>
-        </div>
-        <div class="column is-full columns is-centered">
-            <div class="column is-half">
-                <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/real_robot_50/pickup_toast_and_put_to_sink_29.mp4">
-                </video>
-            </div>
-            <div class="column is-half">
-                <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/bc_real_robot_50/pickup_toast_and_put_to_sink_45.mp4">
+                    <source src="./static/video/bc_real_robot_50/banana_from_sink_to_right_stove_37.mp4">
                 </video>
             </div>
         </div>
         <div class="column is-full columns is-centered">
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/real_robot_50/open_oven_22.mp4">
+                    <source src="./static/video/real_robot_50/pickup_toast_and_put_to_sink_29.mp4">
                 </video>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/bc_real_robot_50/open_oven_11.mp4">
-                </video>
-            </div>
-        </div>
-        <div class="column is-full columns is-centered">
-            <div class="column is-half">
-                <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/real_robot_50/pot_from_sink_to_right_stove_31.mp4">
-                </video>
-            </div>
-            <div class="column is-half">
-                <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/bc_real_robot_50/pot_from_sink_to_right_stove_7.mp4">
+                    <source src="./static/video/bc_real_robot_50/pickup_toast_and_put_to_sink_45.mp4">
                 </video>
             </div>
         </div>
         <div class="column is-full columns is-centered">
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/real_robot_50/pull_oven_tray_13.mp4">
+                    <source src="./static/video/real_robot_50/open_oven_22.mp4">
+                </video>
+            </div>
+            <div class="column is-half">
+                <video width="100%" autoplay muted loop playsinline>
+                    <source src="./static/video/bc_real_robot_50/open_oven_11.mp4">
+                </video>
+            </div>
+        </div>
+        <div class="column is-full columns is-centered">
+            <div class="column is-half">
+                <video width="100%" autoplay muted loop playsinline>
+                    <source src="./static/video/real_robot_50/pot_from_sink_to_right_stove_31.mp4">
+                </video>
+            </div>
+            <div class="column is-half">
+                <video width="100%" autoplay muted loop playsinline>
+                    <source src="./static/video/bc_real_robot_50/pot_from_sink_to_right_stove_7.mp4">
+                </video>
+            </div>
+        </div>
+        <div class="column is-full columns is-centered">
+            <div class="column is-half">
+                <video width="100%" autoplay muted loop playsinline>
+                    <source src="./static/video/real_robot_50/pull_oven_tray_13.mp4">
                 </video>
                 <p>BESO</p>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/bc_real_robot_50/pull_oven_tray_17.mp4">
+                    <source src="./static/video/bc_real_robot_50/pull_oven_tray_17.mp4">
                 </video>
                 <p>BC</p>
             </div>
@@ -156,13 +156,13 @@ We evaluate BESO on a challenging real world toy kitchen environment with 10 tas
         <div class="column is-full columns is-centered">
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/real_robot_50/pot_from_sink_to_right_stove_11.mp4">
+                    <source src="./static/video/real_robot_50/pot_from_sink_to_right_stove_11.mp4">
                 </video>
                 <p>Task: Move the pot from the sink to the right stove. BESO went to the stove instead of the sink, and failed to pickup the pot afterwards.</p>
             </div>
             <div class="column is-half">
                 <video width="100%" autoplay muted loop playsinline>
-                    <source src="/static/video/real_robot_50/pickup_toast_and_put_to_sink_49.mp4">
+                    <source src="./static/video/real_robot_50/pickup_toast_and_put_to_sink_49.mp4">
                 </video>
                 <p>Task: Pick up the toast and put it into the sink. BESO didn't lift the toast high enough and carried the toaster too.</p>
             </div>
@@ -177,7 +177,7 @@ Our experiments showcase the effectiveness Classifier-Free Guidance (CFG) Traini
 Below you can see the performance of CFG-BESO on the kitchen and block push environment. When we set the guidance factor lamda=0, we completely ignore the goal and generate random behavior with a high reward and low result (only gives credit, if a pre-defined goal is solved).
 
 <div class="columns is-centered">
-    <img src="/static/image/BESO_CFG_plot.png" alt="BESO CFG" class="column is-four-fifths">
+    <img src="./static/image/BESO_CFG_plot.png" alt="BESO CFG" class="column is-four-fifths">
 </div>
 
 ## Using BESO in your own project
@@ -207,7 +207,7 @@ The work presented here was funded by the German Research Foundation (DFG) – 4
 <h3><a href="https://intuitive-robots.github.io/mdt_policy/">Multimodal Diffusion Transformer: Learning Versatile Behavior from Multimodal Goals</a></h3>
 <div class="column is-full columns">
     <div class="column is-half">
-        <img src="/static/image/mdt-v-figure.png" alt="MDT-V Overview">
+        <img src="./static/image/mdt-v-figure.png" alt="MDT-V Overview">
     </div>
     <div class="column is-half">
         <p>
@@ -219,7 +219,7 @@ The work presented here was funded by the German Research Foundation (DFG) – 4
 <h3><a href="https://robottasklabeling.github.io/">Scaling Robot Policy Learning via Zero-Shot Labeling with Foundation Models</a></h3>
 <div class="column is-full columns">
     <div class="column is-half">
-        <img src="/static/image/nils-ow.png" alt="NILS Overview">
+        <img src="./static/image/nils-ow.png" alt="NILS Overview">
     </div>
     <div class="column is-half">
         <p>
